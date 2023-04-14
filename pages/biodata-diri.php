@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Data Diri - Bayu Nugraha - FSWD 1</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
 	<?php
@@ -12,7 +12,7 @@
 		$tanggal_lahir = '26 Juni 2001';
 		$jenis_kelamin = 'Laki-laki';
 		$alamat = 'Jl. Belitung Darat Gg. Bina Karya No. 43, Banjarmasin';
-		$foto = 'assets/images/pass-photo.jpg';
+		$foto = '../assets/images/pass-photo.jpg';
 		$pendidikan = 'S1 Teknik Informatika - Uniska Banjarmasin';
 		$hobi = 'Programming, Design, Photography, Traveling, Reading, and etc.';
 
