@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Data Diri - Bayu Nugraha - FSWD 1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 	<?php
