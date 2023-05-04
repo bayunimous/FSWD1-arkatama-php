@@ -54,6 +54,27 @@ function downsideLeft($tinggi_bintang)
     }
 }
 
+//fungsi conditionalStatement memilih pattern mana yang akan dipanggil
+function printPattern($patternName, $tinggi_bintang)
+{
+    switch ($patternName) {
+        case "upsideLeft":
+            upsideLeft($tinggi_bintang);
+            break;
+        case "upsideRight":
+            upsideRight($tinggi_bintang);
+            break;
+        case "downsideRight":
+            downsideRight($tinggi_bintang);
+            break;
+        case "downsideLeft":
+            downsideLeft($tinggi_bintang);
+            break;
+        default:
+            echo "Invalid pattern name.";
+    }
+}
+
 //memanggil fungsi upsideLeft, upsideRight, downsideLeft, downsideRight
 $tinggi_bintang = 5;
 upsideLeft($tinggi_bintang);
@@ -63,3 +84,14 @@ echo "<br>";
 downsideLeft($tinggi_bintang);
 echo "<br>";
 downsideRight($tinggi_bintang);
+
+//memanggil fungsi printPattern
+/* echo "<br>";
+printPattern("upsideLeft", $tinggi_bintang);
+echo "<br>";
+printPattern("upsideRight", $tinggi_bintang);
+echo "<br>";
+printPattern("downsideLeft", $tinggi_bintang);
+echo "<br>";
+printPattern("downsideRight", $tinggi_bintang);
+echo "<br>"; */
