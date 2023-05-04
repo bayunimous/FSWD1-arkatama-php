@@ -51,4 +51,4 @@ FSWD1-arkatama-php/
 
 ## Kontribusi
 
-Anda dapat melakukan kontribusi pada proyek ini dengan mengirimkan pull request. Namun, sebelumnya pastikan bahwa perubahan yang Anda lakukan tidak merusak proyek ini dan selalu ikuti pedoman kontribusi yang baik. Jika Anda menemukan masalah dalam proyek ini, silakan buat _issue_ baru di GitHub dan akan saya usahakan untuk memperbaikinya secepat mungkin.
+Anda dapat melakukan kontribusi pada proyek ini dengan mengirimkan pull request. Namun,sebelumnya pastikan bahwa perubahan yang Anda lakukan tidak merusak proyek ini dan selalu ikuti pedoman kontribusi yang baik. Jika Anda menemukan masalah dalam proyek ini, silakan buat _issue_ baru di GitHub dan akan saya usahakan untuk memperbaikinya secepat mungkin.
