@@ -1,0 +1,51 @@
+/* Style untuk tabel */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  font-size: 14px;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style untuk tombol */
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+/* Style untuk judul halaman */
+h1,
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style untuk container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
