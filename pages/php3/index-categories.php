@@ -9,7 +9,7 @@
 <body>
     <h1>Input Kategori</h1>
 
-    <form action="view-categories.php" method="POST">
+    <form action="insert-categories.php" method="POST">
         <label for="id">ID:</label>
         <input type="text" name="id" id="id">
 
