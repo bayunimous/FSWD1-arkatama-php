@@ -1,6 +1,19 @@
 <?php
 include 'conn.php';
 
+// fungsi untuk memasukkan data kategori ke dalam database
+function insertCategory($conn, $id, $name, $created_at, $updated_at)
+{
+    $sql = "INSERT INTO categories (id, name, created_at, updated_at)
+            VALUES ('$id', '$name', '$created_at', '$updated_at')";
+
+    if ($conn->query($sql) === TRUE) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
 if (isset($_POST['submit'])) {
     // ambil nilai input dari form
     $id = $_POST['id'];
