@@ -2,15 +2,15 @@
 // Memanggil atau membutuhkan file function.php
 require 'function.php';
 
-// Menampilkan semua data dari table siswa berdasarkan nis secara Descending
-$siswa = query("SELECT * FROM siswa ORDER BY nis DESC");
+// Menampilkan semua data dari table siswa berdasarkan id secara Descending
+$siswa = query("SELECT * FROM siswa ORDER BY id DESC");
 
 // Membuat nama file
-$filename = "data siswa-" . date('Ymd') . ".xls";
+$filename = "data user-" . date('Ymd') . ".xlsx";
 
 // Kodingam untuk export ke excel
 header("Content-type: application/vnd-ms-excel");
-header("Content-Disposition: attachment; filename=Data Siswa.xls");
+header("Content-Disposition: attachment; filename=data user.xlsx");
 
 ?>
 <table class="text-center" border="1">

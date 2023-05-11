@@ -64,7 +64,7 @@ $siswa = query("SELECT * FROM siswa ORDER BY id DESC");
         </div>
         <div class="row my-2">
             <div class="col-md">
-                <a href="addData.php" class="btn btn-primary"><i class="bi bi-person-plus-fill"></i>&nbsp;Tambah Data</a>
+                <a href="tambah.php" class="btn btn-primary"><i class="bi bi-person-plus-fill"></i>&nbsp;Tambah Data</a>
                 <a href="export.php" target="_blank" class="btn btn-success ms-1"><i class="bi bi-file-earmark-spreadsheet-fill"></i>&nbsp;Ekspor ke Excel</a>
             </div>
         </div>
