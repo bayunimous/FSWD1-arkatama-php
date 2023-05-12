@@ -1,4 +1,12 @@
 <?php
+session_start();
+// Jika tidak bisa login maka balik ke login.php
+// jika masuk ke halaman ini melalui url, maka langsung menuju halaman login
+if (!isset($_SESSION['login'])) {
+    header('location:login.php');
+    exit;
+}
+
 // Memanggil atau membutuhkan file function.php
 require 'function.php';
 
